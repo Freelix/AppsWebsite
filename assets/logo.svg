@@ -1,20 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="AppForge Labs">
-  <defs>
-    <linearGradient id="afl-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#9333EA"/>
-      <stop offset="55%" stop-color="#2563EB"/>
-      <stop offset="100%" stop-color="#4338CA"/>
-    </linearGradient>
-    <linearGradient id="afl-spark" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FDE68A"/>
-      <stop offset="100%" stop-color="#F59E0B"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="15" fill="url(#afl-bg)"/>
-  <!-- Anvil -->
-  <path fill="#FFFFFF" d="M8 29h40.5a3 3 0 0 1 3 3v3.5H41l-3 6h4.5V48h-21v-6.5H26l-3-6h-4.5C13.2 35.5 9.6 33 8 29z"/>
-  <!-- Spark -->
-  <path fill="url(#afl-spark)" d="M42 9l2.1 5.4L49.5 16.5l-5.4 2.1L42 24l-2.1-5.4-5.4-2.1 5.4-2.1z"/>
-  <circle cx="51.5" cy="10" r="1.6" fill="#FDE68A"/>
-  <circle cx="33" cy="12" r="1.2" fill="#FDE68A"/>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9333EA"/><stop offset=".55" stop-color="#2563EB"/><stop offset="1" stop-color="#4338CA"/></linearGradient><linearGradient id="sp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient></defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <path fill="#fff" transform="translate(0 4)" d="M20 26H52a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H44c-4 0-6 3-6 7v2h5a2 2 0 0 1 2 2v4H19v-4a2 2 0 0 1 2-2h5v-2c0-4-2-7-6-7-6 0-11-2.5-14-6 4-.7 9-1 14-1z"/>
+  <g transform="rotate(-35 44 14)">
+    <rect x="36" y="8" width="16" height="8" rx="2" fill="#fff"/>
+    <rect x="42.5" y="15" width="3" height="16" rx="1.5" fill="#fff" opacity=".85"/>
+  </g>
+  <g stroke="url(#sp)" stroke-width="2.4" stroke-linecap="round">
+    <path d="M30 23l-4-4M27 27h-5M33 20l-1-5"/>
+  </g>
 </svg>
