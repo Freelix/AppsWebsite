@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AppForge Labs — We forge apps people love</title>
+  <meta name="description" content="AppForge Labs is a Canadian app studio crafting polished, privacy-first mobile apps. Meet BoardGameSelector: the smartest way to pick your next board game.">
+  <meta name="theme-color" content="#7E22CE">
+  <link rel="canonical" href="https://appforgelabs.ca/">
+  <link rel="alternate" hreflang="en" href="https://appforgelabs.ca/?lang=en">
+  <link rel="alternate" hreflang="fr" href="https://appforgelabs.ca/?lang=fr">
+  <link rel="alternate" hreflang="x-default" href="https://appforgelabs.ca/">
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <!-- Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AppForge Labs">
+  <meta property="og:title" content="AppForge Labs — We forge apps people love">
+  <meta property="og:description" content="A Canadian app studio crafting polished, privacy-first mobile apps. First up: BoardGameSelector.">
+  <meta property="og:url" content="https://appforgelabs.ca/">
+  <meta property="og:image" content="https://appforgelabs.ca/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_CA">
+  <meta property="og:locale:alternate" content="fr_CA">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://appforgelabs.ca/#org",
+        "name": "AppForge Labs",
+        "url": "https://appforgelabs.ca/",
+        "logo": "https://appforgelabs.ca/assets/logo.svg",
+        "areaServed": "CA"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "BoardGameSelector",
+        "operatingSystem": "Android",
+        "applicationCategory": "GameApplication",
+        "description": "Discover and pick your next board game. Browse your BoardGameGeek collection, filter by players and duration, and let the app choose for you.",
+        "image": "https://appforgelabs.ca/assets/app-icon-512.png",
+        "publisher": {"@id": "https://appforgelabs.ca/#org"}
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="AppForge Labs">
+        <img src="assets/logo.svg" alt="" width="36" height="36">
+        <span class="brand-name">AppForge<span class="brand-accent"> Labs</span></span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#apps" data-i18n="nav.apps">Apps</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ── Hero ─────────────────────────────────────────────── -->
+    <section class="hero" id="top">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Independent app studio · Made in Canada</p>
+          <h1 data-i18n-html="hero.title">We forge apps <span class="gradient-text">people love to use.</span></h1>
+          <p class="lead" data-i18n="hero.lead">AppForge Labs designs and builds polished, privacy-first mobile apps that solve everyday problems beautifully. Our first creation turns "what should we play tonight?" into a one-tap decision.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#spotlight" data-i18n="hero.ctaPrimary">Discover BoardGameSelector</a>
+            <a class="btn btn-ghost" href="#about" data-i18n="hero.ctaSecondary">Our approach</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>1</strong><span data-i18n="hero.stat1">app in the forge</span></li>
+            <li><strong>100%</strong><span data-i18n="hero.stat2">offline-ready</span></li>
+            <li><strong>0</strong><span data-i18n="hero.stat3">ads or trackers</span></li>
+          </ul>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="phone phone-back">
+            <img src="assets/screens/result.webp" alt="" width="720" height="1600" fetchpriority="high">
+          </div>
+          <div class="phone phone-front">
+            <img src="assets/screens/shortlist-dark.webp" alt="" width="720" height="1600" fetchpriority="high">
+          </div>
+          <div class="floating-chip chip-1"><span class="chip-dot"></span><span data-i18n="hero.chip1">You should play… One Deck Dungeon!</span></div>
+          <div class="floating-chip chip-2">🎲 <span data-i18n="hero.chip2">Picked in 1 tap</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Our apps ─────────────────────────────────────────── -->
+    <section class="section" id="apps">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="apps.eyebrow">Our apps</p>
+          <h2 data-i18n="apps.title">Crafted one app at a time</h2>
+          <p class="section-lead" data-i18n="apps.lead">Every AppForge Labs product is designed with obsessive attention to detail, works without a connection and respects your privacy.</p>
+        </div>
+        <div class="app-grid">
+          <article class="app-card reveal">
+            <img class="app-icon" src="assets/app-icon-512.png" alt="BoardGameSelector icon" width="88" height="88" loading="lazy">
+            <div class="app-card-body">
+              <span class="badge badge-soon" data-i18n="apps.soon">Coming soon to Google Play</span>
+              <h3>BoardGameSelector</h3>
+              <p data-i18n="apps.bgsDesc">The smartest way to pick your next board game. Sync your BoardGameGeek collection, filter it in seconds and let the app choose for you.</p>
+              <ul class="tag-list">
+                <li data-i18n="apps.tag1">Board games</li>
+                <li data-i18n="apps.tag2">BoardGameGeek sync</li>
+                <li data-i18n="apps.tag3">Android</li>
+              </ul>
+              <a class="text-link" href="#spotlight" data-i18n="apps.learnMore">See it in action →</a>
+            </div>
+          </article>
+          <article class="app-card app-card-next reveal">
+            <div class="next-icon" aria-hidden="true">
+              <img src="assets/logo.svg" alt="" width="56" height="56">
+            </div>
+            <div class="app-card-body">
+              <span class="badge" data-i18n="apps.nextBadge">In the forge</span>
+              <h3 data-i18n="apps.nextTitle">Your next favourite app</h3>
+              <p data-i18n="apps.nextDesc">New ideas are heating up. Each future app will join this page, built with the same care and craftsmanship.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── App spotlight ────────────────────────────────────── -->
+    <section class="section spotlight" id="spotlight">
+      <div class="container">
+        <div class="spotlight-intro reveal">
+          <img src="assets/app-icon-512.png" alt="" width="96" height="96" loading="lazy">
+          <div>
+            <p class="eyebrow" data-i18n="spot.eyebrow">App spotlight</p>
+            <h2 data-i18n-html="spot.title">BoardGameSelector: <span class="gradient-text">game night, decided.</span></h2>
+            <p class="section-lead" data-i18n="spot.lead">Your shelf is full of great games, yet choosing one takes longer than setting it up. BoardGameSelector ends the debate: tell it who's playing and how much time you have, and it picks the perfect game from your own collection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="feature-row reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/result.webp" alt="A game picked at random: One Deck Dungeon" data-i18n-alt="feat.pick.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">01</span>
+            <h3 data-i18n="feat.pick.title">Let the app pick for you</h3>
+            <p data-i18n="feat.pick.text">One tap on "Pick a Game!" and a perfectly matched title from your collection appears, with players, play time, complexity and categories at a glance. Not feeling it? Pick another.</p>
+          </div>
+        </div>
+
+        <div class="feature-row reverse reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/picker.webp" alt="Pick a Game filters screen" data-i18n-alt="feat.filters.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">02</span>
+            <h3 data-i18n="feat.filters.title">Filters that actually understand gamers</h3>
+            <p data-i18n="feat.filters.text">Narrow things down by player count, play time, complexity, categories, mechanics, and even cooperative vs. competitive play style. Only games you actually own make the cut.</p>
+            <ul class="check-list">
+              <li data-i18n="feat.filters.b1">Player count &amp; play time</li>
+              <li data-i18n="feat.filters.b2">Weight / complexity range</li>
+              <li data-i18n="feat.filters.b3">Type-to-search categories &amp; mechanics</li>
+              <li data-i18n="feat.filters.b4">Co-op or competitive</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="feature-row reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/shortlist.webp" alt="Shortlist of three games" data-i18n-alt="feat.short.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">03</span>
+            <h3 data-i18n="feat.short.title">Shortlist showdown</h3>
+            <p data-i18n="feat.short.text">Torn between a few favourites? Add them to your Shortlist and let fate decide. It's fair, fast and ends the table-wide debate instantly.</p>
+          </div>
+        </div>
+
+        <div class="feature-row reverse reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/details.webp" alt="Game details with rank, complexity and rating" data-i18n-alt="feat.details.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">04</span>
+            <h3 data-i18n="feat.details.title">Everything about every game</h3>
+            <p data-i18n="feat.details.text">Gorgeous cover art, BGG rank and rating, complexity, image gallery and your own play history: total plays, last played and average duration.</p>
+          </div>
+        </div>
+
+        <div class="feature-row reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/offline.webp" alt="Library shown while offline" data-i18n-alt="feat.offline.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">05</span>
+            <h3 data-i18n="feat.offline.title">Works anywhere, even offline</h3>
+            <p data-i18n="feat.offline.text">Game night at the cottage with no signal? No problem. Your collection, filters, picker and Shortlist all live on your device and open instantly.</p>
+          </div>
+        </div>
+
+        <div class="feature-row reverse reveal">
+          <div class="feature-media"><div class="phone"><img src="assets/screens/library-dark.webp" alt="Library in dark mode" data-i18n-alt="feat.dark.alt" width="720" height="1600" loading="lazy"></div></div>
+          <div class="feature-copy">
+            <span class="feature-num">06</span>
+            <h3 data-i18n="feat.dark.title">Beautiful by day, stunning by night</h3>
+            <p data-i18n="feat.dark.text">Browse your whole library in a rich grid or compact list, in a light or a dark theme that's easy on the eyes when the lights are dimmed for game night.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Gallery ──────────────────────────────────────────── -->
+    <section class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="gallery.eyebrow">Gallery</p>
+          <h2 id="gallery-title" data-i18n="gallery.title">Take a closer look</h2>
+        </div>
+      </div>
+      <div class="gallery" tabindex="0" aria-label="Screenshots">
+        <figure class="phone"><img src="assets/screens/splash.webp" alt="Splash screen" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/library.webp" alt="My Library" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/picker-dark.webp" alt="Pick result, dark theme" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/shortlist.webp" alt="Shortlist" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/details.webp" alt="Game details" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/shortlist-dark.webp" alt="Shortlist, dark theme" width="720" height="1600" loading="lazy"></figure>
+        <figure class="phone"><img src="assets/screens/picker.webp" alt="Filters" width="720" height="1600" loading="lazy"></figure>
+      </div>
+    </section>
+
+    <!-- ── About / values ───────────────────────────────────── -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Why AppForge Labs</p>
+          <h2 data-i18n="about.title">Small studio. High standards.</h2>
+          <p class="section-lead" data-i18n="about.lead">We believe great apps are forged, not rushed. Every detail is shaped, tested and polished until it feels just right in your hand.</p>
+        </div>
+        <div class="value-grid">
+          <div class="value-card reveal">
+            <div class="value-icon" aria-hidden="true">🍁</div>
+            <h3 data-i18n="about.v1.title">Crafted in Canada</h3>
+            <p data-i18n="about.v1.text">Proudly designed and built in Canada by people who use their own apps every day.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon" aria-hidden="true">🔒</div>
+            <h3 data-i18n="about.v2.title">Privacy first</h3>
+            <p data-i18n="about.v2.text">Your data stays on your device. No ads, no tracking, no selling your information. Ever.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon" aria-hidden="true">⚡</div>
+            <h3 data-i18n="about.v3.title">Fast &amp; offline-ready</h3>
+            <p data-i18n="about.v3.text">Apps that open instantly and keep working when the Wi-Fi doesn't.</p>
+          </div>
+          <div class="value-card reveal">
+            <div class="value-icon" aria-hidden="true">✨</div>
+            <h3 data-i18n="about.v4.title">Obsessively polished</h3>
+            <p data-i18n="about.v4.text">Thoughtful design, smooth animations and light &amp; dark themes, down to the last pixel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Final CTA ────────────────────────────────────────── -->
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <img src="assets/app-icon-512.png" alt="" width="80" height="80" loading="lazy">
+        <h2 data-i18n="cta.title">BoardGameSelector is coming soon</h2>
+        <p data-i18n="cta.text">We're putting the finishing touches on our first app. Get ready to spend less time choosing and more time playing.</p>
+        <span class="store-badge" aria-disabled="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M3.6 1.8 13.8 12 3.6 22.2c-.4-.2-.6-.6-.6-1.1V2.9c0-.5.2-.9.6-1.1Zm11.3 11.3 2.6 2.6-11.9 6.8 9.3-9.4Zm3.9-3.9 2.9 1.7c.8.5.8 1.7 0 2.2l-2.9 1.7-2.8-2.8 2.8-2.8ZM5.6 1.5l11.9 6.8-2.6 2.6-9.3-9.4Z"/></svg>
+          <span><small data-i18n="cta.badgeSmall">Coming soon on</small><strong>Google Play</strong></span>
+        </span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#top" aria-label="AppForge Labs">
+        <img src="assets/logo.svg" alt="" width="28" height="28">
+        <span class="brand-name">AppForge<span class="brand-accent"> Labs</span></span>
+      </a>
+      <p class="footer-note">© <span id="year">2026</span> AppForge Labs. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p class="footer-legal" data-i18n="footer.bgg">BoardGameGeek is a trademark of BoardGameGeek, LLC. BoardGameSelector is an independent app and is not affiliated with or endorsed by BoardGameGeek.</p>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
